@@ -130,7 +130,7 @@ In addition to this, new features and plugins are also being developed and relea
 
 **Latest open major bugs:**
 
-1.  Geolocation not working on any chrome browser (Android, Windows, Linux, IOS). This issue was opened on 27/5/2016 by Nhoty and the developer Brendan Coles labeled this issue as a defect & module one day later (on 28/5/2016) that shows that issues are addressed quickly  although a fix for this issue haven't been released yet (1/6/2016). The issue means that the released module for geolocation is having a serious bug in chrome browser. [(link: https://github.com/beefproject/beef/issues/1269)](https://github.com/beefproject/beef/issues/1269)
+1.  Geolocation not working on any chrome browser (Android, Windows, Linux, IOS). This issue was opened on 27/5/2016 by Nhoty and the developer Brendan Coles labeled this issue as a defect & module one day later (on 28/5/2016) that shows that issues are addressed quickly  although a fix for this issue haven't been released yet (1/6/2016). The issue means that the released module for geolocation is having a serious bug in chrome browser. [(https://github.com/beefproject/beef/issues/1269)](https://github.com/beefproject/beef/issues/1269)
 All the other major bugs are from 2 years ago or more so we guess it was fixed in newer versions.
 
 All the other major bugs are from 2 years ago or more so we guess it was fixed in newer versions.
@@ -138,7 +138,7 @@ All the other major bugs are from 2 years ago or more so we guess it was fixed i
 **Missing important features:**
 
 1. IPV6 support, the current state of IPV6 support is not known.
-2. API call to manually set OS and browser version of hooked browsers. [(link: https://github.com/beefproject/beef/issues/1164).](https://github.com/beefproject/beef/issues/1164)
+2. API call to manually set OS and browser version of hooked browsers. [(https://github.com/beefproject/beef/issues/1164).](https://github.com/beefproject/beef/issues/1164)
 
 
 3. Implement VNC style functionality in BeeF. This will allow real time monitoring of the hooked-browser’s view. That is, when the hooked browser follows a (onsite) link or enters content into input boxes it is viewed/monitored/recorded in the framework. The framework will have a proxy running on the loopback. When a browser connects to this proxy, the user can watch a playback or watch real-time with the user’s session.
