@@ -85,7 +85,7 @@ The application itself is written in ruby and the code that is supposed to be in
 The code is built in a modular way so creating new modules and adding them to BeeF should be pretty easy, but as mention in the documentation section the core code of the project is complicated and requires a comprehensive code analysis.
 Ruby code main classes:
 
-![](ASOSMA/BeEF/pic1.png)
+![](pic1.png)
 
 
 ####**The Stakeholders:**
@@ -94,7 +94,7 @@ As it can be seen from the following figures the 2 leading contributors are cont
 
 
 
-![](ASOSMA/BeEF/pic2-stakeholders.png)
+![](pic2-stakeholders.png)
 
 
 
@@ -111,7 +111,7 @@ Suggesting new module to Beef Process:
 
 
 
-![](ASOSMA/BeEF/pic3-Developers.png)
+![](pic3-Developers.png)
 
 
 **Users:**
