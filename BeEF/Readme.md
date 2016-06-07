@@ -85,6 +85,7 @@ The application itself is written in ruby and the code that is supposed to be in
 The code is built in a modular way so creating new modules and adding them to BeeF should be pretty easy, but as mention in the documentation section the core code of the project is complicated and requires a comprehensive code analysis.
 Ruby code main classes:
 
+
 ![](pic1.png)
 
 
@@ -93,9 +94,7 @@ The BeeF project comprises a large community of dozens of software engineers, de
 As it can be seen from the following figures the 2 leading contributors are contributing to other projects that are also dealing with the information security field. 
 
 
-
 ![](pic2-stakeholders.png)
-
 
 
 We can classify the prominent stockholders into 3 groups:
@@ -108,7 +107,6 @@ An information about this members is not supplied in their Github page nor in th
 
 There is a certain group of developers that is continuously contributing to improve BeeF project. They reply, issue and close tickets when a bug is fixed. In that way they work closely with the users. From surfing in the BeeF's blog we saw that there are researches in the field of information security and cryptography that are participating in the BeeF project by developing experimental features. 
 Suggesting new module to Beef Process:
-
 
 
 ![](pic3-Developers.png)
