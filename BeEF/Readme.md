@@ -79,7 +79,7 @@ In generally we think that in order to create a new module the supplied document
 
 
 
-####**Source Code Structure:**
+####**Source Code Structure**
 The code consists of ruby and JavaScript files.
 The application itself is written in ruby and the code that is supposed to be injected in to the "victim's" browsers in order to check its vulnerability is written in JavaScript.
 The code is built in a modular way so creating new modules and adding them to BeeF should be pretty easy, but as mention in the documentation section the core code of the project is complicated and requires a comprehensive code analysis.
@@ -88,7 +88,7 @@ Ruby code main classes:
 ![](pic1.png)
 
 
-####**The Stakeholders:**
+####**The Stakeholders**
 The BeeF project comprises a large community of dozens of software engineers, developers and testers. They work on a voluntary base, as most of them have another job and no income is generated since BeeF is freeware, it is easy to assume that the developers come from the security information world or have a great affection to this field.
 As it can be seen from the following figures the 2 leading contributors are contributing to other projects that are also dealing with the information security field. 
 
@@ -100,11 +100,11 @@ As it can be seen from the following figures the 2 leading contributors are cont
 
 We can classify the prominent stockholders into 3 groups:
 
-**Core BeeF organization: (Management):**
+**Core BeeF organization (Management)**
 
 An information about this members is not supplied in their Github page nor in their website, while digging a little further in order to identify the core members led to the conclusion that a limited group of developers have the right to approve or deny the potential contributions and bug reports (the 2 guys mentioned above are surely a part of this group).
 
-**Developers:**
+**Developers**
 
 There is a certain group of developers that is continuously contributing to improve BeeF project. They reply, issue and close tickets when a bug is fixed. In that way they work closely with the users. From surfing in the BeeF's blog we saw that there are researches in the field of information security and cryptography that are participating in the BeeF project by developing experimental features. 
 Suggesting new module to Beef Process:
@@ -114,12 +114,23 @@ Suggesting new module to Beef Process:
 ![](pic3-Developers.png)
 
 
-**Users:**
+**Users**
 
 Since the BeeF project is dependent on their users to use the system to assess the actual security posture of a target environment by using client-side attack vectors they embrace them to contribute to the continuous improvement of the web browsers penetration system by reporting bugs and proposing new modules. Also the web browsers companies themselves can benefit from using the framework in order to identify vulnerabilities in their browsers and close them.
 
 
-####**Challenges:**
+
+###Describe  the major UML diagrams
+
+   **describe the main  login attack:**
+
+
+ ![](use login tracker.png)
+
+
+
+
+####**Challenges**
 
 **We think that the BeeF project has 2 major challenges:**
 
@@ -128,14 +139,14 @@ In addition to this, new features and plugins are also being developed and relea
 2. Hooking as much web browsers as possible for all relevant platforms and supplying the same functionalities to penetrate for all of the web browsers.
 
 
-**Latest open major bugs:**
+**Latest open major bugs**
 
 1.  Geolocation not working on any chrome browser (Android, Windows, Linux, IOS). This issue was opened on 27/5/2016 by Nhoty and the developer Brendan Coles labeled this issue as a defect & module one day later (on 28/5/2016) that shows that issues are addressed quickly  although a fix for this issue haven't been released yet (1/6/2016). The issue means that the released module for geolocation is having a serious bug in chrome browser. [(https://github.com/beefproject/beef/issues/1269)](https://github.com/beefproject/beef/issues/1269)
 All the other major bugs are from 2 years ago or more so we guess it was fixed in newer versions.
 
 All the other major bugs are from 2 years ago or more so we guess it was fixed in newer versions.
 
-**Missing important features:**
+**Missing important features**
 
 1. IPV6 support, the current state of IPV6 support is not known.
 2. API call to manually set OS and browser version of hooked browsers. [(https://github.com/beefproject/beef/issues/1164).](https://github.com/beefproject/beef/issues/1164)
